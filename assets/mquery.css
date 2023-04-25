@@ -1,0 +1,25 @@
+@media (max-width: 400px) {
+    #input{
+        height: 20vh;
+        /* background-color: rgb(115, 194, 115); */
+        display: flex;
+        flex-direction: column;        
+    }
+
+    #input textarea {
+        width: 90%;
+    }
+
+    #tareas{
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .tarea{
+        width: 80%;
+        height: 200px;
+        
+    
+    }
+  }
+  
