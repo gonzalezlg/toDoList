@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    position: relative;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    background-color: rgba(49, 49, 49, 0.432);
+}
+
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(38, 38, 92); */
+    height: 10vh;
+    color: black;
+    
+}
+
+#header h1{
+    letter-spacing: 2px;
+    
+}
+
+#input{
+    height: 10vh;
+    /* background-color: rgb(115, 194, 115); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#input textarea {
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    resize: none;
+    border: none;
+}
+
+#input textarea:focus {
+    border: 5px solid rgb(100, 100, 201);
+}
+
+#input button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: rgb(97, 156, 97);
+}
+
+#input button:hover {
+    background-color: rgba(97, 156, 97, 0.692);
+    border: 1px solid black;
+    font-weight: bold;
+
+}
+
+#tareas{
+    /* background-color: rgb(214, 103, 103); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 80vh;
+    
+    padding: 20px;
+    border: 3px solid black;
+    box-shadow: inset 5px 5px 10px #888;
+    margin: 10px;
+
+}
+
+.tarea{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: rgba(49, 49, 49, 0.096);
+
+}
+.tarea p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.removeTarea{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+
+    width: 40px;
+    height: 40px;
+
+    padding: 10px 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.removeTarea:hover{
+    background-color: white;
+    color: black;
+}
